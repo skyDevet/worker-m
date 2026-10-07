@@ -1,0 +1,12 @@
+name = "mesay-api"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+CORS_ORIGIN = "http://localhost:5173"
+SUPABASE_STORAGE_BUCKET = "uploads"
+
+# Secrets — set these, do NOT put them in this file:
+#   npx wrangler secret put SUPABASE_URL
+#   npx wrangler secret put SUPABASE_SERVICE_ROLE_KEY

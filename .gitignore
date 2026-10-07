@@ -1,0 +1,30 @@
+# Environment
+.env
+.env.*
+*.env
+.dev.vars
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Cloudflare
+.wrangler/
+dist/
+build/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary
+tmp/
+backup_*/
